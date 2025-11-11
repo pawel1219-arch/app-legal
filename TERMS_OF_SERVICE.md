@@ -1,239 +1,140 @@
-# Warunki Korzystania z Usługi (Terms of Service) - KidsCloset
+Warunki Korzystania z Usługi (Terms of Service) – KidsCloset
 
-**Data ostatniej aktualizacji: 11.11.2025**
+Data ostatniej aktualizacji: 11.11.2025
 
-## 1. Akceptacja Warunków
+1. Akceptacja Warunków
 
-Korzystając z aplikacji mobilnej KidsCloset ("Aplikacja", "Usługa"), akceptujesz i zgadzasz się przestrzegać niniejszych Warunków Korzystania z Usługi ("Warunki"). Jeśli nie zgadzasz się z tymi Warunkami, nie możesz korzystać z Aplikacji.
+Korzystając z aplikacji mobilnej KidsCloset („Aplikacja”, „Usługa”), akceptujesz i zobowiązujesz się przestrzegać niniejszych Warunków. Jeżeli nie akceptujesz tych Warunków, nie korzystaj z Aplikacji.
 
-## 2. Definicje
+2. Administrator i Definicje
 
-- **"My", "Nas", "Nasz"**: Odnosi się do NIP: 9581566824 Paweł Mazur ul. Janki Bryla 14c/10 81-577 Gdynia
-- **"Ty", "Użytkownik"**: Odnosi się do osoby korzystającej z Aplikacji
-- **"Treści"**: Wszelkie dane, teksty, obrazy i inne materiały dodane przez Użytkownika
-- **"Wersja Pro"**: Płatna subskrypcja oferująca dodatkowe funkcje
+„My”, „Nas”, „Nasz” oznacza: Paweł Mazur prowadzący działalność gospodarczą, NIP: 9581566824, ul. Janki Bryla 14C/10, 81-577 Gdynia, Polska.
 
-## 3. Licencja na Użytkowanie
+„Ty”, „Użytkownik” oznacza osobę korzystającą z Aplikacji.
 
-### 3.1 Przyznanie Licencji
+„Treści” oznaczają dane, informacje i materiały wprowadzane przez Użytkownika.
 
-Przyznajemy Ci osobistą, niewyłączną, nieprzekazywalną, odwołalną licencję na korzystanie z Aplikacji wyłącznie do celów osobistych, niekomercyjnych.
+„Wersja Pro” oznacza płatną subskrypcję oferującą dodatkowe funkcje.
 
-### 3.2 Ograniczenia
+3. Licencja na Użytkowanie
+3.1 Przyznanie Licencji
 
-NIE możesz:
-- Kopiować, modyfikować lub dystrybuować Aplikacji
-- Dokonywać inżynierii wstecznej lub dekompilować Aplikacji
-- Usuwać oznaczeń praw autorskich lub zastrzeżonych znaków towarowych
-- Używać Aplikacji w sposób niezgodny z prawem
-- Sprzedawać, wynajmować lub dzierżawić dostępu do Aplikacji
-- Używać Aplikacji do celów komercyjnych bez naszej zgody
+Udzielamy niewyłącznej, odwołalnej, nieprzenoszalnej licencji na korzystanie z Aplikacji wyłącznie do celów osobistych i niekomercyjnych.
 
-## 4. Konto Użytkownika
+3.2 Ograniczenia
 
-### 4.1 Brak Wymogu Rejestracji
+Nie wolno:
 
-Aplikacja NIE wymaga utworzenia konta. Wszystkie dane są przechowywane lokalnie na Twoim urządzeniu.
+modyfikować ani rozpowszechniać Aplikacji,
 
-### 4.2 Odpowiedzialność za Dane
+prowadzić inżynierii wstecznej lub dekompilacji,
 
-- Jesteś odpowiedzialny za tworzenie kopii zapasowych swoich danych
-- Nie ponosimy odpowiedzialności za utratę danych wynikającą z usunięcia Aplikacji, awarii urządzenia lub innych przyczyn
+usuwać oznaczeń praw autorskich,
 
-## 5. Subskrypcja KidsCloset Pro
+wykorzystywać Aplikacji w sposób niezgodny z prawem,
 
-### 5.1 Modele Subskrypcji
+udostępniać lub wynajmować Aplikacji osobom trzecim.
 
-Oferujemy następujące modele subskrypcji Pro:
-- Miesięczna subskrypcja
-- Roczna subskrypcja
-- Jednorazowy zakup dożywotni (jeśli dostępny)
+4. Brak Rejestracji Konta
 
-### 5.2 Płatności i Odnowienia
+Aplikacja nie wymaga zakładania konta. Dane są przechowywane lokalnie na urządzeniu Użytkownika.
 
-- Płatności są przetwarzane przez Apple App Store lub Google Play Store
-- Subskrypcje odnawiane są automatycznie, chyba że anulowano je co najmniej 24 godziny przed końcem bieżącego okresu
-- Opłata za odnowienie zostanie pobrana w ciągu 24 godzin przed końcem bieżącego okresu
-- Możesz zarządzać subskrypcją i anulować ją w ustawieniach konta w App Store/Google Play
+Użytkownik jest odpowiedzialny za tworzenie kopii zapasowych danych. Usunięcie Aplikacji lub awaria urządzenia może skutkować ich utratą.
 
-### 5.3 Ceny
+5. Subskrypcja KidsCloset Pro
+5.1 Modele
 
-- Ceny są wyświetlane w Aplikacji i mogą się różnić w zależności od kraju
-- Zastrzegamy sobie prawo do zmiany cen w dowolnym momencie
-- Zmiany cen nie wpływają na aktywne subskrypcje do czasu ich odnowienia
+subskrypcja miesięczna,
 
-### 5.4 Polityka Zwrotów
+subskrypcja roczna,
 
-- Zwroty są obsługiwane przez Apple lub Google zgodnie z ich politykami
-- Skontaktuj się z Apple App Store lub Google Play Store w celu uzyskania zwrotu
-- Nie gwarantujemy zwrotów po rozpoczęciu korzystania z funkcji Pro
+jednorazowy zakup dożywotni (jeżeli dostępny).
 
-### 5.5 Przywracanie Zakupów
+5.2 Płatności
 
-- Możesz przywrócić wcześniejsze zakupy na tym samym lub nowym urządzeniu
-- Użyj funkcji "Przywróć zakupy" w Aplikacji
+Płatności i odnowienia są przetwarzane przez Apple App Store lub Google Play Store.
 
-## 6. Wersja Darmowa - Ograniczenia
+Subskrypcje odnawiają się automatycznie, chyba że zostaną anulowane co najmniej 24 godziny przed końcem okresu rozliczeniowego.
 
-Darmowa wersja Aplikacji ma następujące ograniczenia:
-- Maksymalnie 1 profil dziecka
-- Maksymalnie 3 przedmioty na liście życzeń
+Zarządzanie subskrypcją odbywa się w ustawieniach konta App Store / Google Play.
 
-Aby usunąć te ograniczenia, przejdź na KidsCloset Pro.
+5.3 Zwroty
 
-## 7. Treści Użytkownika
+Zwroty są obsługiwane przez App Store / Google Play zgodnie z ich politykami.
 
-### 7.1 Własność Treści
+5.4 Przywracanie Zakupów
 
-Zachowujesz wszystkie prawa do Treści, które dodajesz do Aplikacji (profile dzieci, lista życzeń, zdjęcia produktów itp.).
+Poprzednie zakupy można przywrócić za pomocą funkcji „Przywróć zakupy”.
 
-### 7.2 Przechowywanie Lokalnie
+6. Wersja Darmowa
 
-Twoje Treści są przechowywane lokalnie na Twoim urządzeniu. Nie przechowujemy Twoich Treści na naszych serwerach.
+Wersja darmowa może mieć ograniczenia funkcjonalne. Pełne funkcje dostępne są wyłącznie w Wersji Pro.
 
-### 7.3 Odpowiedzialność za Treści
+7. Treści Użytkownika
 
-Jesteś wyłącznie odpowiedzialny za swoje Treści i konsekwencje ich dodania do Aplikacji.
+Użytkownik zachowuje prawa do swoich Treści.
+Treści przechowywane są wyłącznie lokalnie na urządzeniu.
+Użytkownik ponosi odpowiedzialność za zgodność Treści z prawem.
 
-## 8. Zabronione Działania
+8. Zabronione Działania
 
-Zgadzasz się NIE:
-- Używać Aplikacji w sposób naruszający prawo
-- Przesyłać złośliwego oprogramowania lub wirusów
-- Próbować uzyskać nieautoryzowanego dostępu do Aplikacji lub powiązanych systemów
-- Zakłócać lub przerywać działania Aplikacji
-- Wykorzystywać Aplikacji do spam lub phishing
-- Naruszać praw własności intelektualnej
+Zakazane jest:
 
-## 9. Własność Intelektualna
+naruszanie prawa,
 
-### 9.1 Nasze Prawa
+instalowanie lub przesyłanie złośliwego oprogramowania,
 
-Aplikacja i wszystkie związane z nią materiały (kod, grafika, logo, interfejs) są własnością NIP: 9581566824 Paweł Mazur ul. Janki Bryla 14c/10 81-577 Gdynia i chronione prawami autorskimi, znakami towarowymi i innymi prawami własności intelektualnej.
+próby nieautoryzowanego dostępu,
 
-### 9.2 Znaki Towarowe
+zakłócanie działania Aplikacji,
 
-"KidsCloset" i powiązane logo są naszymi znakami towarowymi. Nie możesz ich używać bez naszej pisemnej zgody.
+naruszanie praw autorskich lub własności intelektualnej.
 
-## 10. Linki do Stron Trzecich
+9. Własność Intelektualna
 
-### 10.1 Linki Zewnętrzne
+Aplikacja, kod źródłowy, interfejs, elementy graficzne i logo są własnością Usługodawcy i podlegają ochronie prawnej.
 
-Aplikacja może zawierać linki do stron internetowych lub usług stron trzecich (np. sklepy online, Allegro, OLX).
+10. Linki do Stron Trzecich
 
-### 10.2 Brak Odpowiedzialności
+Aplikacja może zawierać linki zewnętrzne. Nie ponosimy odpowiedzialności za działania, treści i polityki prywatności stron trzecich.
 
-- Nie kontrolujemy i nie ponosimy odpowiedzialności za treści, polityki prywatności lub praktyki jakichkolwiek stron trzecich
-- Korzystanie z usług stron trzecich odbywa się na własne ryzyko
+11. Wyłączenie Odpowiedzialności
 
-## 11. Wyłączenie Odpowiedzialności
+Aplikacja jest udostępniana „jak jest” i „w miarę dostępności”, bez gwarancji działania nieprzerwanego, wolnego od błędów lub zgodności z każdym urządzeniem.
 
-### 11.1 "Jak Jest" (AS IS)
+12. Ograniczenie Odpowiedzialności
 
-Aplikacja jest dostarczana "jak jest" i "w miarę dostępności" bez jakichkolwiek gwarancji, wyraźnych lub dorozumianych.
+W zakresie dozwolonym przez prawo, odpowiedzialność Usługodawcy jest ograniczona do łącznej kwoty zapłaconej przez Użytkownika za Aplikację lub subskrypcję Pro w ostatnich 12 miesiącach.
 
-### 11.2 Brak Gwarancji
+Ograniczenie to nie dotyczy szkód spowodowanych umyślnie oraz przypadków, w których prawo wyłącza możliwość takiego ograniczenia.
 
-Nie gwarantujemy, że:
-- Aplikacja będzie działać bez błędów lub przerw
-- Błędy zostaną naprawione
-- Aplikacja będzie kompatybilna z Twoim urządzeniem
-- Dane nie zostaną utracone
+13. Rozwiązanie
 
-## 12. Ograniczenie Odpowiedzialności
+Usługodawca może zawiesić dostęp Użytkownika w przypadku naruszenia niniejszych Warunków.
+Użytkownik może zakończyć korzystanie z Aplikacji, odinstalowując ją.
 
-W MAKSYMALNYM ZAKRESIE DOZWOLONYM PRZEZ PRAWO, NIE PONOSIMY ODPOWIEDZIALNOŚCI ZA:
+14. Zmiany Warunków
 
-- Jakiekolwiek pośrednie, przypadkowe, specjalne lub wynikowe szkody
-- Utratę zysków, danych lub oszczędności
-- Zakupy dokonane na podstawie informacji z Aplikacji
-- Problemy wynikające z korzystania z usług stron trzecich
+Warunki mogą zostać zaktualizowane. O zmianach informujemy poprzez aktualizację daty na górze dokumentu oraz komunikat w Aplikacji przy istotnych zmianach.
 
-NASZA CAŁKOWITA ODPOWIEDZIALNOŚĆ NIE PRZEKROCZY KWOTY ZAPŁACONEJ PRZEZ CIEBIE ZA APLIKACJĘ W CIĄGU OSTATNICH 12 MIESIĘCY.
+15. Prawo Właściwe i Jurysdykcja
 
-## 13. Odszkodowanie
+Warunki podlegają prawu polskiemu.
 
-Zgadzasz się chronić, zabezpieczać i chronić nas przed wszelkimi roszczeniami, zobowiązaniami, szkodami, stratami i wydatkami (w tym honorariami adwokackimi) wynikającymi z:
-- Twojego korzystania z Aplikacji
-- Naruszenia niniejszych Warunków
-- Naruszenia praw osób trzecich
-- Twoich Treści
+Wszelkie spory będą rozstrzygane przez sądy właściwe miejscowo dla siedziby Usługodawcy, tj. sądy w Gdyni.
+Postanowienie to nie ogranicza praw konsumenta do wniesienia sprawy przed sąd właściwy zgodnie z przepisami prawa konsumenckiego.
 
-## 14. Rozwiązanie i Zawieszenie
+16. Postanowienia Końcowe
 
-### 14.1 Rozwiązanie przez Użytkownika
+Jeżeli którekolwiek postanowienie okaże się nieważne, pozostałe zachowują moc.
+Brak egzekwowania uprawnień nie stanowi ich zrzeczenia się.
 
-Możesz przestać korzystać z Aplikacji w dowolnym momencie, usuwając ją ze swojego urządzenia.
+17. Kontakt
 
-### 14.2 Rozwiązanie przez Nas
+Email: kidscloset.pro@gmail.com
 
-Możemy zawiesić lub zakończyć Twój dostęp do Aplikacji w dowolnym momencie, bez powiadomienia, jeśli:
-- Naruszasz niniejsze Warunki
-- Używasz Aplikacji w sposób niezgodny z prawem
-- Zachowanie zagraża bezpieczeństwu Aplikacji lub innych użytkowników
+Adres: Paweł Mazur, ul. Janki Bryla 14C/10, 81-577 Gdynia, Polska
 
-### 14.3 Skutki Rozwiązania
+18. Warunki Specyficzne dla Apple App Store
 
-Po rozwiązaniu:
-- Twoje prawo do korzystania z Aplikacji natychmiast wygasa
-- Dane przechowywane lokalnie pozostaną na Twoim urządzeniu (do czasu usunięcia Aplikacji)
-- Subskrypcje będą kontynuowane do końca bieżącego okresu rozliczeniowego
-
-## 15. Zmiany w Warunkach
-
-Zastrzegamy sobie prawo do modyfikacji niniejszych Warunków w dowolnym momencie. Powiadomimy Cię o istotnych zmianach poprzez:
-- Aktualizację daty "Ostatniej aktualizacji" na górze
-- Powiadomienie w Aplikacji (jeśli jest to istotna zmiana)
-
-Dalsze korzystanie z Aplikacji po zmianach oznacza akceptację nowych Warunków.
-
-## 16. Prawo Właściwe i Jurysdykcja
-
-### 16.1 Prawo Właściwe
-
-Niniejsze Warunki podlegają prawu POLSKIM.
-
-### 16.2 Rozstrzyganie Sporów
-
-Wszelkie spory wynikające z niniejszych Warunków będą rozstrzygane przez sądy właściwe dla siedziby Usługodawcy, tj. sądy w Gdyni.
-
-## 17. Przepisy Eksportowe
-
-Zobowiązujesz się przestrzegać wszystkich obowiązujących przepisów eksportowych i nie będziesz eksportować ani ponownie eksportować Aplikacji do krajów objętych embargiem.
-
-## 18. Postanowienia Końcowe
-
-### 18.1 Całość Umowy
-
-Niniejsze Warunki stanowią całą umowę między Tobą a nami dotyczącą Aplikacji.
-
-### 18.2 Rozdzielność
-
-Jeśli którekolwiek z postanowień niniejszych Warunków zostanie uznane za nieważne, pozostałe postanowienia pozostają w mocy.
-
-### 18.3 Zrzeczenie się Praw
-
-Brak egzekwowania jakiegokolwiek prawa nie stanowi zrzeczenia się tego prawa.
-
-### 18.4 Cesja
-
-Nie możesz przenieść swoich praw wynikających z niniejszych Warunków bez naszej pisemnej zgody.
-
-## 19. Kontakt
-
-Jeśli masz pytania dotyczące niniejszych Warunków, skontaktuj się z nami:
-
-- **Email**: kidscloset.pro@gmail.com
-- **Adres**: NIP: 9581566824 Paweł Mazur ul. Janki Bryla 14c/10 81-577 Gdynia
-
----
-
-## 20. Specyficzne Warunki dla Apple App Store
-
-Jeśli pobierasz Aplikację z Apple App Store, dodatkowo obowiązują następujące warunki:
-
-- Apple nie ponosi żadnej odpowiedzialności za Aplikację
-- Apple nie jest stroną niniejszych Warunków
-- Apple i podmioty powiązane z Apple są beneficjentami będącymi stronami trzecimi niniejszych Warunków
-
----
+W zakresie, w jakim niniejsze Warunki przyznają prawa Apple jako beneficjentowi będącemu stroną trzecią, Apple ma prawo do egzekwowania tych Warunków wobec Użytkownika. Apple nie ponosi odpowiedzialności za działanie Aplikacji.
