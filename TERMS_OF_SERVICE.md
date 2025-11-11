@@ -2,8 +2,6 @@
 
 **Data ostatniej aktualizacji: 11.11.2025**
 
-⚠️ **IMPORTANT**: This is a template. You MUST customize it with your actual information and consult with a lawyer before publishing.
-
 ## 1. Akceptacja Warunków
 
 Korzystając z aplikacji mobilnej KidsCloset ("Aplikacja", "Usługa"), akceptujesz i zgadzasz się przestrzegać niniejszych Warunków Korzystania z Usługi ("Warunki"). Jeśli nie zgadzasz się z tymi Warunkami, nie możesz korzystać z Aplikacji.
