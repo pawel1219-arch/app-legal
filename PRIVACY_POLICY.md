@@ -1,153 +1,138 @@
-# Polityka Prywatności KidsCloset
+Polityka Prywatności KidsCloset
 
-**Data ostatniej aktualizacji: 11.11.2025**
+Data ostatniej aktualizacji: 11.11.2025
 
-## 1. Wprowadzenie
+1. Wprowadzenie
 
-KidsCloset ("my", "nas", "nasz") szanuje Twoją prywatność i zobowiązuje się do ochrony Twoich danych osobowych. Ta polityka prywatności wyjaśnia, jak zbieramy, używamy, przechowujemy i chronimy Twoje informacje podczas korzystania z aplikacji mobilnej KidsCloset.
+KidsCloset ("my", "nas", "nasz") szanuje Twoją prywatność i zobowiązuje się do ochrony Twoich danych osobowych.
+Ta polityka prywatności wyjaśnia, jak zbieramy, używamy, przechowujemy i chronimy Twoje informacje podczas korzystania z aplikacji mobilnej KidsCloset.
 
-## 2. Informacje Które Zbieramy
+2. Informacje Które Zbieramy
+2.1 Informacje Podawane Przez Użytkownika
 
-### 2.1 Informacje Podawane Przez Użytkownika
+Profile dzieci: imiona, daty urodzenia, rozmiary ubrań
 
-- **Profile dzieci**: Imiona, daty urodzenia, rozmiary ubrań
-- **Lista życzeń**: Nazwy przedmiotów, kategorie, ceny, notatki, linki do produktów
-- **Zakupy**: Historia zakupów, daty, ceny
-- **Przypomnienia**: Daty i treść przypomnień
+Lista życzeń: nazwy przedmiotów, kategorie, ceny, notatki, linki do produktów
 
-### 2.2 Automatycznie Zbierane Informacje
+Zakupy: historia zakupów, daty, ceny
 
-- **Informacje o urządzeniu**: Model urządzenia, system operacyjny, wersja aplikacji
-- **Informacje o transakcjach**: Szczegóły zakupów w aplikacji (przez RevenueCat)
-- **Dane użytkowania**: Częstotliwość korzystania z aplikacji, używane funkcje
+Przypomnienia: daty i treść przypomnień
 
-### 2.3 Dane od Partnerów Trzecich
+2.2 Automatycznie Zbierane Informacje
 
-- **RevenueCat**: Zarządzanie subskrypcjami i zakupami w aplikacji
-- **Apple/Google**: Informacje o transakcjach zakupowych
+Informacje o urządzeniu: model urządzenia, system operacyjny, wersja aplikacji
 
-## 3. Jak Wykorzystujemy Twoje Dane
+Informacje o transakcjach: szczegóły zakupów w aplikacji (przez RevenueCat)
 
-Twoje dane używamy w celu:
+2.3 Dane od Partnerów Trzecich
 
-- Świadczenia i ulepszania usług aplikacji
-- Zarządzania Twoim kontem i subskrypcją Pro
-- Wysyłania przypomnień o zakupach (jeśli wyrażono zgodę)
-- Analizy używania aplikacji w celu poprawy funkcjonalności
-- Zapobiegania nadużyciom i oszustwom
-- Komunikacji z Tobą w sprawie zmian w usłudze
+RevenueCat: zarządzanie subskrypcjami i zakupami w aplikacji
 
-## 4. Udostępnianie Danych
+Apple/Google: przetwarzanie transakcji płatniczych
 
-**NIE SPRZEDAJEMY** Twoich danych osobowych osobom trzecim.
+3. Jak Wykorzystujemy Twoje Dane
 
-Możemy udostępniać Twoje dane:
+Twoje dane wykorzystujemy w celu:
 
-### 4.1 Dostawcom Usług
+Świadczenia funkcjonalności aplikacji
 
-- **RevenueCat**: Zarządzanie subskrypcjami i zakupami
-- **Apple/Google**: Przetwarzanie płatności za subskrypcje
+Zarządzania subskrypcjami Pro
 
-### 4.2 Wymogi Prawne
+Wysyłania przypomnień (jeśli wyrażono zgodę)
 
-Możemy ujawnić Twoje dane, jeśli wymaga tego prawo lub w dobrej wierze uznamy, że takie działanie jest konieczne do:
-- Przestrzegania obowiązków prawnych
-- Ochrony i obrony naszych praw lub własności
-- Zapobiegania lub badania możliwych naruszeń związanych z usługą
-- Ochrony bezpieczeństwa osobistego użytkowników lub publiczności
+Zapobiegania nadużyciom i oszustwom
 
-## 5. Przechowywanie Danych
+Komunikacji dotyczącej ważnych zmian w aplikacji
 
-### 5.1 Lokalnie na Urządzeniu
+Nie prowadzimy analityki zachowań użytkownika poza informacjami dotyczącymi transakcji subskrypcji.
 
-- Większość danych (profile dzieci, lista życzeń, szafa) jest przechowywana **lokalnie na Twoim urządzeniu**
-- Nie synchronizujemy tych danych z chmurą
-- Usunięcie aplikacji skutkuje utratą danych lokalnych
+4. Udostępnianie Danych
 
-### 5.2 Dane RevenueCat
+Nie sprzedajemy Twoich danych osobowych.
 
-- RevenueCat przechowuje informacje o subskrypcji zgodnie z własną polityką prywatności
-- Zobacz: https://www.revenuecat.com/privacy
+Możemy udostępniać dane:
 
-### 5.3 Czas Przechowywania
+RevenueCat – w zakresie obsługi subskrypcji
 
-- Dane lokalne: Przechowywane do momentu usunięcia aplikacji
-- Dane subskrypcji: Przechowywane przez RevenueCat zgodnie z wymogami prawnymi (zazwyczaj 7 lat dla danych finansowych)
+Apple/Google – w zakresie realizacji płatności
 
-## 6. Twoje Prawa
+Organom prawnym, jeśli jest to wymagane przez przepisy
 
-Zgodnie z RODO (jeśli jesteś w UE) i innymi przepisami o ochronie danych, masz prawo do:
+5. Przechowywanie Danych
+5.1 Dane Lokalnie na Urządzeniu
 
-- **Dostępu**: Zażądać kopii swoich danych osobowych
-- **Poprawiania**: Poprawić nieprawidłowe lub niekompletne dane
-- **Usunięcia**: Zażądać usunięcia swoich danych ("prawo do bycia zapomnianym")
-- **Ograniczenia**: Ograniczyć przetwarzanie swoich danych
-- **Przenoszenia**: Otrzymać swoje dane w formacie strukturalnym
-- **Sprzeciwu**: Sprzeciwić się przetwarzaniu swoich danych
+Profile dzieci, lista życzeń i szafa przechowywane są tylko lokalnie na urządzeniu użytkownika
 
-Aby skorzystać z tych praw, skontaktuj się z nami: **kidscloset.pro@gmail.com
-**
+Usunięcie aplikacji powoduje trwałe usunięcie tych danych
 
-## 7. Bezpieczeństwo
+5.2 Dane Subskrypcyjne
 
-Stosujemy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych:
+Przechowywane przez RevenueCat zgodnie z jego polityką: https://www.revenuecat.com/privacy
 
-- Dane przechowywane lokalnie na urządzeniu są chronione przez zabezpieczenia systemu operacyjnego
-- Komunikacja z RevenueCat odbywa się przez szyfrowane połączenia HTTPS
-- Nie przechowujemy danych karty kredytowej - płatności obsługuje Apple/Google
+5.3 Okres Przechowywania
 
-Jednak **żadna metoda transmisji przez Internet lub przechowywania elektronicznego nie jest w 100% bezpieczna**. Nie możemy zagwarantować absolutnego bezpieczeństwa.
+Dane lokalne: do momentu usunięcia aplikacji
 
-## 8. Prywatność Dzieci
+Dane dotyczące subskrypcji: zgodnie z wymogami prawnymi (zazwyczaj 7 lat dla dokumentacji finansowej)
 
-Nasza aplikacja jest przeznaczona dla rodziców i opiekunów do zarządzania szafą dziecięcą. Nie zbieramy **świadomie** informacji osobowych od dzieci poniżej 13. roku życia.
+6. Twoje Prawa
 
-Jeśli jesteś rodzicem i dowiesz się, że Twoje dziecko przekazało nam dane osobowe, skontaktuj się z nami.
+Masz prawo do: dostępu, poprawiania, usunięcia, ograniczenia przetwarzania, przenoszenia danych oraz sprzeciwu.
+Aby skorzystać z tych praw, skontaktuj się z nami: kidscloset.pro@gmail.com
 
-## 9. Międzynarodowe Transfery Danych
+7. Bezpieczeństwo
 
-Twoje dane mogą być przetwarzane w krajach innych niż Twój kraj zamieszkania. Te kraje mogą mieć inne przepisy o ochronie danych niż Twój kraj.
+Dane lokalne chronione są zabezpieczeniami systemu operacyjnego urządzenia
 
-- **RevenueCat** może przetwarzać dane w USA
-- Podejmujemy odpowiednie kroki w celu zapewnienia, że Twoje dane są traktowane bezpiecznie zgodnie z tą polityką prywatności
+Komunikacja z RevenueCat odbywa się za pomocą szyfrowanego połączenia HTTPS
 
-## 10. Zmiany w Polityce Prywatności
+Nie przechowujemy danych kart płatniczych
 
-Możemy aktualizować naszą politykę prywatności od czasu do czasu. Powiadomimy Cię o wszelkich zmianach, publikując nową politykę prywatności na tej stronie i aktualizując "Datę ostatniej aktualizacji" na górze.
+8. Prywatność Dzieci
 
-Zalecamy okresowe przeglądanie tej polityki prywatności w celu zapoznania się ze zmianami.
+Aplikacja jest przeznaczona dla rodziców/opiekunów.
 
-## 11. Zgoda
+Dane dotyczące dzieci (np. imię, rozmiar ubrań) są wprowadzane wyłącznie przez rodzica lub opiekuna i przechowywane lokalnie na jego urządzeniu.
+Aplikacja nie tworzy kont dla dzieci i nie identyfikuje dzieci jako użytkowników.
 
-Korzystając z aplikacji KidsCloset, wyrażasz zgodę na zbieranie i wykorzystywanie informacji zgodnie z tą polityką.
+Nie zbieramy świadomie danych osobowych od dzieci poniżej 13 roku życia.
 
-## 12. Kontakt
+9. Międzynarodowe Transfery Danych
 
-Jeśli masz pytania dotyczące tej polityki prywatności, skontaktuj się z nami:
+Dane subskrypcyjne mogą być przetwarzane poza UE (np. USA przez RevenueCat).
+Zapewniamy stosowanie odpowiednich zabezpieczeń zgodnych z RODO.
 
-- **Email**: kidscloset.pro@gmail.com
-- **Adres**: Janki Bryla 14C/10 81-577 Gdynia
+10. Zmiany w Polityce
 
----
+Możemy aktualizować tę politykę. O zmianach informujemy poprzez aktualizację daty „ostatniej aktualizacji”.
 
-## Informacje Specyficzne dla RODO (dla użytkowników z UE)
+11. Zgoda
 
-### Administrator Danych
-NIP: 9581566824
+Korzystając z aplikacji, akceptujesz warunki niniejszej polityki.
+
+12. Kontakt
+
+Email: kidscloset.pro@gmail.com
+
+Adres: ul. Janki Bryla 14c/10, 81-577 Gdynia, Polska
+
+Informacje Specyficzne dla RODO
+
+Administrator danych:
 Paweł Mazur
+NIP: 9581566824
 ul. Janki Bryla 14c/10
-81-577 Gdynia
+81-577 Gdynia, Polska
 
-### Podstawa Prawna Przetwarzania
+Podstawy prawne przetwarzania:
 
-Przetwarzamy Twoje dane osobowe na podstawie:
-- **Wykonania umowy**: Świadczenia usług aplikacji
-- **Zgody**: Wysyłania przypomnień push
-- **Uzasadnionego interesu**: Poprawy naszych usług i zapobiegania oszustwom
-- **Obowiązku prawnego**: Przechowywania danych finansowych
+wykonanie umowy (świadczenie usług aplikacji)
 
-### Organ Nadzorczy
+zgoda (powiadomienia)
 
-Masz prawo złożyć skargę do właściwego organu nadzorczego ds. ochrony danych w kraju Twojego zamieszkania.
+uzasadniony interes (bezpieczeństwo usługi)
 
----
+obowiązki prawne (dokumentacja księgowa)
+
+Organ nadzorczy:
+Masz prawo złożyć skargę do Prezesa UODO w Polsce lub właściwego organu w Twoim kraju.
