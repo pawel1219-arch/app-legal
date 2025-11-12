@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warunki Korzystania – KidsCloset</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem;
+      max-width: 800px;
+      margin-inline: auto;
+    }
+    h1, h2 { color: #4a3aff; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+    .lang-switch { text-align: right; margin-bottom: 1rem; }
+    a { color: #4a3aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="lang-switch">
+    <button onclick="switchLang('pl')">PL 🇵🇱</button> | 
+    <button onclick="switchLang('en')">EN 🇬🇧</button>
+  </div>
 
+  <div id="pl">
+    <h1>Warunki Korzystania z Usługi – KidsCloset</h1>
+    <p><strong>Data ostatniej aktualizacji:</strong> 11 listopada 2025</p>
+    <p>Korzystając z aplikacji KidsCloset, akceptujesz niniejsze Warunki. Aplikacja przechowuje dane tylko lokalnie i nie wymaga konta.</p>
+    <h2>Subskrypcje</h2>
+    <p>Płatności przetwarzane są przez Google Play lub App Store. Subskrypcje odnawiają się automatycznie, chyba że zostaną anulowane co najmniej 24 godziny przed końcem okresu.</p>
+    <h2>Odpowiedzialność</h2>
+    <p>Aplikacja jest dostarczana „tak jak jest”. Odpowiedzialność ograniczona jest do kwoty zapłaconej za subskrypcję w ciągu ostatnich 12 miesięcy.</p>
+    <h2>Kontakt</h2>
+    <p>Email: <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a></p>
+  </div>
+
+  <div id="en" style="display:none;">
+    <h1>Terms of Service – KidsCloset</h1>
+    <p><strong>Last Updated:</strong> November 11, 2025</p>
+    <p>By using the KidsCloset app, you agree to these Terms. The app stores all data locally and does not require an account.</p>
+    <h2>Subscriptions</h2>
+    <p>Payments are processed securely through Google Play or App Store. Subscriptions renew automatically unless canceled at least 24 hours before renewal.</p>
+    <h2>Liability</h2>
+    <p>The app is provided “as is”. Liability is limited to the total amount paid within the last 12 months.</p>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a></p>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('pl').style.display = lang === 'pl' ? 'block' : 'none';
+      document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    }
+    const userLang = navigator.language.startsWith('pl') ? 'pl' : 'en';
+    switchLang(userLang);
+  </script>
+</body>
+</html>
