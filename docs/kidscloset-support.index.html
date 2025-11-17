@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KidsCloset – Support</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      max-width: 720px;
+    }
+    h1 { color: #6a4dfc; }
+    a { color: #6a4dfc; }
+  </style>
+  <script>
+    // Auto-redirect based on browser language
+    document.addEventListener("DOMContentLoaded", () => {
+      const lang = navigator.language.startsWith("pl") ? "pl" : "en";
+      document.querySelectorAll("[data-lang]").forEach(el => {
+        el.style.display = el.dataset.lang === lang ? "block" : "none";
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <!-- POLISH VERSION -->
+  <div data-lang="pl">
+    <h1>Wsparcie techniczne – KidsCloset</h1>
+
+    <p>Dziękujemy za korzystanie z aplikacji <strong>KidsCloset</strong>.  
+    Jeśli napotkasz problemy lub masz pytania dotyczące funkcjonalności, subskrypcji lub płatności — jesteśmy tutaj, aby pomóc.</p>
+
+    <h2>Kontakt</h2>
+    <p>
+      Możesz skontaktować się z nami poprzez e-mail:<br>
+      <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a>
+    </p>
+
+    <h2>Najczęściej zadawane pytania</h2>
+    <ul>
+      <li>Problemy z subskrypcją lub płatnościami</li>
+      <li>Brak aktywnej subskrypcji KidsCloset Pro</li>
+      <li>Problemy z logowaniem</li>
+      <li>Problemy z udostępnianiem list życzeń</li>
+    </ul>
+
+    <h2>Polityka prywatności</h2>
+    <p>
+      Politykę prywatności znajdziesz tutaj:<br>
+      <a href="https://pawel1219-arch.github.io/kidscloset-privacy">Zobacz politykę prywatności</a>
+    </p>
+
+    <h2>Wsparcie techniczne</h2>
+    <p>
+      Jeśli masz sugestię nowej funkcji lub chcesz zgłosić błąd:<br>
+      <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a>
+    </p>
+  </div>
+
+  <!-- ENGLISH VERSION -->
+  <div data-lang="en" style="display:none">
+    <h1>KidsCloset – Support</h1>
+
+    <p>Thank you for using the <strong>KidsCloset</strong> app.  
+    If you experience any issues or have questions about subscriptions, payments, or features — we are here to help.</p>
+
+    <h2>Contact</h2>
+    <p>
+      You can reach us anytime via email:<br>
+      <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a>
+    </p>
+
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li>Subscription or billing issues</li>
+      <li>KidsCloset Pro entitlement not active</li>
+      <li>Login or account problems</li>
+      <li>Wishlist sharing issues</li>
+    </ul>
+
+    <h2>Privacy Policy</h2>
+    <p>
+      You can view our Privacy Policy here:<br>
+      <a href="https://pawel1219-arch.github.io/kidscloset-privacy">View Privacy Policy</a>
+    </p>
+
+    <h2>Technical Support</h2>
+    <p>
+      If you want to report a bug or suggest a feature:<br>
+      <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a>
+    </p>
+  </div>
+
+</body>
+</html>
