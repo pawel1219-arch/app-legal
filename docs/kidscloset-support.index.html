@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> LittleCloset – Support</title>
+  <title>LittleCloset – Support</title>
   <style>
     body {
       font-family: system-ui, sans-serif;
@@ -13,24 +13,66 @@
     }
     h1 { color: #6a4dfc; }
     a { color: #6a4dfc; }
+
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 20px;
+    }
+
+    .lang-switch button {
+      padding: 6px 12px;
+      border: 1px solid #6a4dfc;
+      background: white;
+      color: #6a4dfc;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-left: 6px;
+    }
+
+    .lang-switch button.active {
+      background: #6a4dfc;
+      color: white;
+    }
   </style>
+
   <script>
-    // Auto-redirect based on browser language
-    document.addEventListener("DOMContentLoaded", () => {
-      const lang = navigator.language.startsWith("pl") ? "pl" : "en";
+    function setLanguage(lang) {
       document.querySelectorAll("[data-lang]").forEach(el => {
         el.style.display = el.dataset.lang === lang ? "block" : "none";
       });
+
+      document.querySelectorAll(".lang-switch button").forEach(btn => {
+        btn.classList.remove("active");
+      });
+
+      document.getElementById(lang + "-btn").classList.add("active");
+      localStorage.setItem("preferredLang", lang);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem("preferredLang");
+
+      const lang = savedLang
+        ? savedLang
+        : navigator.language.startsWith("pl") ? "pl" : "en";
+
+      setLanguage(lang);
     });
   </script>
 </head>
 <body>
 
+  <!-- LANGUAGE SWITCH -->
+  <div class="lang-switch">
+    <button id="pl-btn" onclick="setLanguage('pl')">PL</button>
+    <button id="en-btn" onclick="setLanguage('en')">EN</button>
+  </div>
+
   <!-- POLISH VERSION -->
   <div data-lang="pl">
-    <h1>Wsparcie techniczne –  LittleCloset</h1>
+    <h1>Wsparcie techniczne – LittleCloset</h1>
 
-    <p>Dziękujemy za korzystanie z aplikacji <strong> LittleCloset</strong>.  
+    <p>Dziękujemy za korzystanie z aplikacji <strong>LittleCloset</strong>.
     Jeśli napotkasz problemy lub masz pytania dotyczące funkcjonalności, subskrypcji lub płatności — jesteśmy tutaj, aby pomóc.</p>
 
     <h2>Kontakt</h2>
@@ -42,7 +84,7 @@
     <h2>Najczęściej zadawane pytania</h2>
     <ul>
       <li>Problemy z subskrypcją lub płatnościami</li>
-      <li>Brak aktywnej subskrypcji  LittleCloset Pro</li>
+      <li>Brak aktywnej subskrypcji LittleCloset Pro</li>
       <li>Problemy z logowaniem</li>
       <li>Problemy z udostępnianiem list życzeń</li>
     </ul>
@@ -62,9 +104,9 @@
 
   <!-- ENGLISH VERSION -->
   <div data-lang="en" style="display:none">
-    <h1> LittleCloset – Support</h1>
+    <h1>LittleCloset – Support</h1>
 
-    <p>Thank you for using the <strong> LittleCloset</strong> app.  
+    <p>Thank you for using the <strong>LittleCloset</strong> app.
     If you experience any issues or have questions about subscriptions, payments, or features — we are here to help.</p>
 
     <h2>Contact</h2>
@@ -76,7 +118,7 @@
     <h2>Frequently Asked Questions</h2>
     <ul>
       <li>Subscription or billing issues</li>
-      <li> LittleCloset Pro entitlement not active</li>
+      <li>LittleCloset Pro entitlement not active</li>
       <li>Login or account problems</li>
       <li>Wishlist sharing issues</li>
     </ul>
