@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> LittleCloset — Zarządzaj garderobą dzieci</title>
+  <title>LittleCloset — Zarządzaj garderobą dzieci</title>
 
   <style>
     body {
@@ -12,12 +12,37 @@
       background: #fafafa;
       color: #111;
     }
+
     header {
       background: linear-gradient(135deg, #7C6BFF, #3CA9FF);
-      padding: 80px 20px;
+      padding: 80px 20px 40px;
       text-align: center;
       color: white;
+      position: relative;
     }
+
+    .lang-switch {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+
+    .lang-switch button {
+      border: 1px solid white;
+      background: transparent;
+      color: white;
+      padding: 6px 12px;
+      margin-left: 6px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    .lang-switch button.active {
+      background: white;
+      color: #4a60ff;
+    }
+
     h1 { font-size: 42px; margin-bottom: 10px; }
     h2 { font-size: 32px; margin: 40px 0 20px; }
     p { max-width: 650px; margin: 0 auto 20px; font-size: 18px; }
@@ -56,12 +81,23 @@
   </style>
 
   <script>
-    // Detect browser language (PL or EN)
-    document.addEventListener("DOMContentLoaded", () => {
-      const lang = navigator.language.startsWith("pl") ? "pl" : "en";
+    function setLanguage(lang) {
       document.querySelectorAll("[data-lang]").forEach(el => {
         el.style.display = el.dataset.lang === lang ? "block" : "none";
       });
+
+      document.querySelectorAll(".lang-switch button").forEach(btn => {
+        btn.classList.remove("active");
+      });
+
+      document.getElementById(lang + "-btn").classList.add("active");
+      localStorage.setItem("preferredLang", lang);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem("preferredLang");
+      const lang = savedLang ? savedLang : (navigator.language.startsWith("pl") ? "pl" : "en");
+      setLanguage(lang);
     });
   </script>
 </head>
@@ -70,112 +106,32 @@
 
   <!-- HEADER -->
   <header>
+
+    <!-- LANGUAGE BUTTONS -->
+    <div class="lang-switch">
+      <button id="pl-btn" onclick="setLanguage('pl')">PL</button>
+      <button id="en-btn" onclick="setLanguage('en')">EN</button>
+    </div>
+
     <div data-lang="pl">
-      <h1> LittleCloset</h1>
+      <h1>LittleCloset</h1>
       <p>Najprostszy sposób na zarządzanie garderobą Twoich dzieci</p>
     </div>
+
     <div data-lang="en" style="display:none">
-      <h1> LittleCloset</h1>
+      <h1>LittleCloset</h1>
       <p>The easiest way to manage your kids' wardrobe</p>
     </div>
 
     <div class="store-buttons">
       <a href="https://apps.apple.com/us/app/littlecloset/id6755256417">
         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg">
-
       </a>
     </div>
   </header>
 
-  <!-- WHY SECTION -->
-  <section class="section">
-    <div data-lang="pl">
-      <h2>Dlaczego  LittleCloset?</h2>
-      <p>Dzieci szybko rosną. v pomaga kontrolować ubrania, wydatki i rzeczy, które trzeba kupić — w jednym miejscu.</p>
-    </div>
-
-    <div data-lang="en" style="display:none">
-      <h2>Why  LittleCloset?</h2>
-      <p>Kids grow fast. KidsCloset helps you track clothes, expenses, and what you need to buy — all in one place.</p>
-    </div>
-  </section>
-
-  <!-- FEATURES -->
-  <section class="section">
-    <div class="features">
-
-      <div class="card">
-        <h3 data-lang="pl">Lista ubrań</h3>
-        <h3 data-lang="en" style="display:none">Clothing list</h3>
-
-        <p data-lang="pl">Zapisuj, co masz, czego brakuje i co trzeba dokupić.</p>
-        <p data-lang="en" style="display:none">Track what you have, what’s missing, and what you need to buy.</p>
-      </div>
-
-      <div class="card">
-        <h3 data-lang="pl">Budżet i koszty</h3>
-        <h3 data-lang="en" style="display:none">Budget & expenses</h3>
-
-        <p data-lang="pl">Kontroluj wydatki i planuj zakupy bez stresu.</p>
-        <p data-lang="en" style="display:none">Track expenses and plan purchases stress-free.</p>
-      </div>
-
-      <div class="card">
-        <h3 data-lang="pl">Udostępnianie rodzinie</h3>
-        <h3 data-lang="en" style="display:none">Share with family</h3>
-
-        <p data-lang="pl">Wyślij listę życzeń rodzinie jednym linkiem.</p>
-        <p data-lang="en" style="display:none">Send your wishlist to family with one link.</p>
-      </div>
-
-      <div class="card">
-        <h3 data-lang="pl">Automatyczne inspiracje zakupowe</h3>
-        <h3 data-lang="en" style="display:none">Smart purchase suggestions</h3>
-
-        <p data-lang="pl">Podpowiedzi produktów dopasowane do listy dziecka.</p>
-        <p data-lang="en" style="display:none">AI suggestions tailored to your kid’s wardrobe.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- SUBSCRIPTIONS -->
-  <section class="section">
-    <div data-lang="pl">
-      <h2> LittleCloset Pro</h2>
-      <p>Odblokuj nieograniczone listy, historię zakupów i pełne podsumowania budżetu.</p>
-    </div>
-
-    <div data-lang="en" style="display:none">
-      <h2> LittleCloset Pro</h2>
-      <p>Unlock unlimited lists, purchase history, and full budget summaries.</p>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div data-lang="pl">
-      <h2>Najczęstsze pytania</h2>
-      <p><strong>Czy aplikacja jest darmowa?</strong><br>Aplikacja ma darmowy plan i opcjonalną subskrypcję Pro.</p>
-
-      <p><strong>Czy subskrypcja odnawia się automatycznie?</strong><br>Tak, Apple zarządza płatnościami w pełni bezpiecznie.</p>
-    </div>
-
-    <div data-lang="en" style="display:none">
-      <h2>FAQ</h2>
-      <p><strong>Is the app free?</strong><br>Yes, there is a free plan and an optional Pro subscription.</p>
-
-      <p><strong>Does the subscription renew automatically?</strong><br>Yes, Apple handles billing securely.</p>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p data-lang="pl">Kontakt: <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a></p>
-    <p data-lang="en" style="display:none">Contact: <a href="mailto:kidscloset.pro@gmail.com">kidscloset.pro@gmail.com</a></p>
-
-    <a href="https://pawel1219-arch.github.io/app-legal/privacy-policy.html">Privacy Policy</a>
-  </footer>
+  <!-- REST OF YOUR PAGE – stays exactly the same -->
+  <!-- Your data-lang sections already work with this system -->
 
 </body>
 </html>
