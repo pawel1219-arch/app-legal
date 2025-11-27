@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dynamic Price Test – Allegro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f6f8;
+      padding: 40px;
+    }
+
+    .product {
+      background: white;
+      padding: 20px;
+      max-width: 420px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 12px 0;
+      color: #1F2A37;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #6B7280;
+    }
+
+    .badge {
+      background: #EFF6FF;
+      color: #2563EB;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="product">
+    <h1>Buty sportowe Nike</h1>
+
+    <!-- PRICE ELEMENT FOR SCRAPER -->
+    <div 
+      class="price" 
+      id="price" 
+      data-price="129.99"
+      data-currency="PLN"
+    >
+      129,99 zł
+    </div>
+
+    <div class="meta">Sklep: <strong>Allegro</strong></div>
+    <div class="meta">Źródło: <span class="badge">Test price page</span></div>
+    <div class="meta" id="lastCheck">Sprawdzono: —</div>
+  </div>
+
+  <script>
+    const priceElement = document.getElementById("price");
+    const lastCheckElement = document.getElementById("lastCheck");
+
+    let currentPrice = 129.99;
+    const currency = "PLN";
+
+    function updatePrice() {
+      // generate new realistic price
+      const delta = (Math.random() * 20 - 10).toFixed(2); 
+      currentPrice = Math.max(99, currentPrice + parseFloat(delta));
+
+      const formatted = currentPrice.toFixed(2).replace(".", ",") + " zł";
+
+      // Update HTML visible price
+      priceElement.innerText = formatted;
+
+      // Update attributes for scrapers
+      priceElement.setAttribute("data-price", currentPrice.toFixed(2));
+      priceElement.setAttribute("data-currency", currency);
+
+      // Simulated API-like object for JS scrapers
+      window.fakeProductData = {
+        success: true,
+        price: parseFloat(currentPrice.toFixed(2)),
+        currency: currency,
+        rawText: formatted,
+        store: "allegro",
+        checkedAt: new Date().toISOString()
+      };
+
+      // Update footer info
+      lastCheckElement.innerText =
+        "Sprawdzono: " + new Date().toLocaleTimeString();
+
+      console.log("Price updated:", window.fakeProductData);
+    }
+
+    // First load
+    updatePrice();
+
+    // Update every 30 seconds
+    setInterval(updatePrice, 30000);
+  </script>
+</body>
+</html>
