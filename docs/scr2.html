@@ -1,49 +1,14 @@
-const express = require("express");
-const app = express();
+<!DOCTYPE html>
+<html>
+<body>
+    <div id="price-container">Ładowanie...</div>
 
-// Obsługa zapytania o stronę główną
-app.get("/", (request, response) => {
-  
-  // 1. Losuj cenę (np. między 100 a 300)
-  // To dzieje się PO STRONIE SERWERA, więc scraper dostanie gotową liczbę
-  const randomPrice = (Math.random() * (300 - 100) + 100).toFixed(2);
-  
-  // 2. Wygeneruj HTML
-  const html = `
-  <!DOCTYPE html>
-  <html>
-    <head>
-       <title>Zara Test</title>
-       <meta property="og:title" content="Testowa Kurtka Zmienna" />
-       <meta property="og:image" content="https://static.zara.net/std/static/1.jpg" />
-    </head>
-    <body>
-       <h1>Testowa Kurtka</h1>
-       
-       <div class="price-current__amount">${randomPrice} PLN</div>
-
-       <script type="application/ld+json">
-       {
-         "@context": "http://schema.org",
-         "@type": "Product",
-         "name": "Dynamiczna Kurtka Glitch",
-         "image": "https://static.zara.net/std/static/1.jpg",
-         "offers": {
-           "@type": "Offer",
-           "priceCurrency": "PLN",
-           "price": "${randomPrice}"
-         }
-       }
-       </script>
-    </body>
-  </html>
-  `;
-
-  // Wyślij HTML do aplikacji
-  response.send(html);
-});
-
-// Nasłuchiwanie
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
-});
+    <script>
+        // Ten skrypt uruchomi się w WebView!
+        const randomPrice = (Math.random() * (300 - 100) + 100).toFixed(2);
+        
+        // Wpisujemy cenę w HTML
+        document.getElementById('price-container').innerText = randomPrice + " PLN";
+    </script>
+</body>
+</html>
