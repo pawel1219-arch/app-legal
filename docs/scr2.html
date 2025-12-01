@@ -1,56 +1,49 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Produktu Zara</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        img { max-width: 300px; border-radius: 10px; }
-        .price-container { font-size: 24px; margin-top: 20px; color: #333; }
-        .price-current__amount { font-weight: bold; }
-    </style>
-</head>
-<body>
+const express = require("express");
+const app = express();
 
-    <h1>Kurtka Testowa Puchowa</h1>
-    <img src="https://static.zara.net/photos///2023/I/0/2/p/3046/231/800/2/w/850/3046231800_6_1_1.jpg?ts=1697013645069" alt="Kurtka">
-    
-    <div class="price-container">
-        Cena: <span class="price-current__amount">299.00 PLN</span>
-    </div>
+// Obsługa zapytania o stronę główną
+app.get("/", (request, response) => {
+  
+  // 1. Losuj cenę (np. między 100 a 300)
+  // To dzieje się PO STRONIE SERWERA, więc scraper dostanie gotową liczbę
+  const randomPrice = (Math.random() * (300 - 100) + 100).toFixed(2);
+  
+  // 2. Wygeneruj HTML
+  const html = `
+  <!DOCTYPE html>
+  <html>
+    <head>
+       <title>Zara Test</title>
+       <meta property="og:title" content="Testowa Kurtka Zmienna" />
+       <meta property="og:image" content="https://static.zara.net/std/static/1.jpg" />
+    </head>
+    <body>
+       <h1>Testowa Kurtka</h1>
+       
+       <div class="price-current__amount">${randomPrice} PLN</div>
 
-    <script type="application/ld+json" id="json-ld">
-    {
-      "@context": "http://schema.org",
-      "@type": "Product",
-      "name": "Kurtka Testowa Puchowa",
-      "image": "https://static.zara.net/photos///2023/I/0/2/p/3046/231/800/2/w/850/3046231800_6_1_1.jpg",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "PLN",
-        "price": "299.00"
-      }
-    }
-    </script>
+       <script type="application/ld+json">
+       {
+         "@context": "http://schema.org",
+         "@type": "Product",
+         "name": "Dynamiczna Kurtka Glitch",
+         "image": "https://static.zara.net/std/static/1.jpg",
+         "offers": {
+           "@type": "Offer",
+           "priceCurrency": "PLN",
+           "price": "${randomPrice}"
+         }
+       }
+       </script>
+    </body>
+  </html>
+  `;
 
-    <script>
-        // Ten skrypt zmienia cenę na ekranie co 10 sekund
-        setInterval(() => {
-            const randomPrice = (Math.random() * (300 - 100) + 100).toFixed(2);
-            
-            // 1. Zmień tekst widoczny dla oka
-            document.querySelector('.price-current__amount').innerText = randomPrice + ' PLN';
-            
-            // 2. Zmień dane w JSON-LD (Scraper tego nie zobaczy przez fetch, ale przeglądarka tak)
-            const jsonElement = document.getElementById('json-ld');
-            const data = JSON.parse(jsonElement.textContent);
-            data.offers.price = randomPrice;
-            jsonElement.textContent = JSON.stringify(data, null, 2);
+  // Wyślij HTML do aplikacji
+  response.send(html);
+});
 
-            console.log("Cena zmieniona na: " + randomPrice);
-        }, 10000); // 10000 ms = 10 sekund
-    </script>
-
-</body>
-</html>
+// Nasłuchiwanie
+const listener = app.listen(process.env.PORT, () => {
+  console.log("Your app is listening on port " + listener.address().port);
+});
