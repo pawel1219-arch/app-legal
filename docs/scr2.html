@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurtka Testowa - Scraper Test</title>
+
+    <meta property="og:title" content="Super Kurtka Zimowa (Test)" />
+    <meta property="og:image" content="https://static.zara.net/photos///2023/I/0/2/p/3046/231/800/2/w/850/3046231800_6_1_1.jpg" />
+    <meta property="og:type" content="product" />
+
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; }
+        img { max-width: 100%; height: auto; border-radius: 8px; }
+        .price-container { font-size: 24px; font-weight: bold; color: #333; margin: 20px 0; }
+        .old-price { text-decoration: line-through; color: #999; font-size: 18px; }
+    </style>
+</head>
 <body>
-    <div id="price-container">Ładowanie...</div>
+
+    <h1>Super Kurtka Zimowa (Test)</h1>
+    
+    <img src="https://static.zara.net/photos///2023/I/0/2/p/3046/231/800/2/w/850/3046231800_6_1_1.jpg" alt="Kurtka">
+
+    <div class="price-container">
+        Cena: <span class="price-current__amount">299.00 PLN</span>
+    </div>
+
+    <p>Odśwież stronę, aby zobaczyć losowanie (tylko w przeglądarce).</p>
+
+    <script type="application/ld+json" id="product-json-ld">
+    {
+      "@context": "http://schema.org",
+      "@type": "Product",
+      "name": "Super Kurtka Zimowa (Test)",
+      "image": "https://static.zara.net/photos///2023/I/0/2/p/3046/231/800/2/w/850/3046231800_6_1_1.jpg",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "PLN",
+        "price": "299.00",
+        "availability": "http://schema.org/InStock"
+      }
+    }
+    </script>
 
     <script>
-        // Ten skrypt uruchomi się w WebView!
-        const randomPrice = (Math.random() * (300 - 100) + 100).toFixed(2);
+        // Ten skrypt działa TYLKO w przeglądarce (lub WebView).
+        // Zwykły fetch() w React Native tego NIE zobaczy (zobaczy zawsze 299.00).
         
-        // Wpisujemy cenę w HTML
-        document.getElementById('price-container').innerText = randomPrice + " PLN";
-    </script>
-</body>
-</html>
+        function changePrice() {
+            // Losuj cenę między 100 a 300
+            const newPrice = (Math.random() * (300 - 100) + 100).toFixed(2);
+            
+            // 1. Zmień tekst widoczny dla oka
+            document
