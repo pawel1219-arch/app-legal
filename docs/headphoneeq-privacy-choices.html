@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Privacy Choices – HeadphoneEQ</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 2rem;
+      max-width: 800px;
+      margin-inline: auto;
+    }
+    h1, h2 { color: #1a73e8; }
+    hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+    .lang-switch { text-align: right; margin-bottom: 1rem; }
+    .lang-switch button {
+      padding: 6px 12px;
+      border: 1px solid #1a73e8;
+      background: white;
+      color: #1a73e8;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-left: 6px;
+    }
+    .lang-switch button:hover { background: #e8f0fe; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="lang-switch">
+    <button onclick="switchLang('pl')">PL</button>
+    <button onclick="switchLang('en')">EN</button>
+  </div>
+
+  <div id="pl" style="display:none;">
+    <h1>Wybory dotyczące prywatności – HeadphoneEQ</h1>
+    <p><strong>Data ostatniej aktualizacji:</strong> 6 marca 2026</p>
+
+    <h2>Twoje dane, Twoja kontrola</h2>
+    <p>HeadphoneEQ nie zbiera żadnych danych osobowych, dlatego nie ma danych do zarządzania, eksportowania ani usuwania.</p>
+
+    <h2>Dane przechowywane lokalnie</h2>
+    <p>Aplikacja przechowuje ustawienia (wybrane urządzenia, presety EQ, poziom preamp) wyłącznie na Twoim urządzeniu. Aby usunąć te dane:</p>
+    <ul>
+      <li>Odinstaluj aplikację HeadphoneEQ — wszystkie lokalne dane zostaną automatycznie usunięte</li>
+      <li>Lub zresetuj ustawienia w Preferencjach systemowych</li>
+    </ul>
+
+    <h2>Połączenia sieciowe</h2>
+    <p>HeadphoneEQ pobiera presety EQ z publicznego repozytorium AutoEQ na GitHubie. Żadne dane użytkownika nie są wysyłane. Jeśli chcesz zablokować te połączenia, możesz używać aplikacji w trybie offline z już pobranymi presetami.</p>
+
+    <h2>Uprawnienia systemowe</h2>
+    <p>Możesz w każdej chwili cofnąć uprawnienia przyznane aplikacji HeadphoneEQ:</p>
+    <ul>
+      <li><strong>Nagrywanie audio:</strong> Ustawienia systemowe &rarr; Prywatność i bezpieczeństwo &rarr; Nagrywanie audio</li>
+      <li><strong>Mikrofon:</strong> Ustawienia systemowe &rarr; Prywatność i bezpieczeństwo &rarr; Mikrofon</li>
+    </ul>
+
+    <h2>Kontakt</h2>
+    <p>Pytania dotyczące prywatności:<br>
+    <a href="https://github.com/pawel1219-arch/HeadphoneEQ/issues">Otwórz zgłoszenie na GitHub</a></p>
+  </div>
+
+  <div id="en">
+    <h1>User Privacy Choices – HeadphoneEQ</h1>
+    <p><strong>Last updated:</strong> March 6, 2026</p>
+
+    <h2>Your Data, Your Control</h2>
+    <p>HeadphoneEQ does not collect any personal data, so there is no data to manage, export, or delete.</p>
+
+    <h2>Locally Stored Data</h2>
+    <p>The app stores settings (selected devices, EQ presets, preamp level) only on your device. To remove this data:</p>
+    <ul>
+      <li>Uninstall HeadphoneEQ — all local data will be automatically removed</li>
+      <li>Or reset preferences via System Settings</li>
+    </ul>
+
+    <h2>Network Connections</h2>
+    <p>HeadphoneEQ downloads EQ presets from the public AutoEQ repository on GitHub. No user data is sent. If you wish to block these connections, you can use the app offline with previously downloaded presets.</p>
+
+    <h2>System Permissions</h2>
+    <p>You can revoke permissions granted to HeadphoneEQ at any time:</p>
+    <ul>
+      <li><strong>Audio Recording:</strong> System Settings &rarr; Privacy & Security &rarr; Audio Recording</li>
+      <li><strong>Microphone:</strong> System Settings &rarr; Privacy & Security &rarr; Microphone</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Privacy questions:<br>
+    <a href="https://github.com/pawel1219-arch/HeadphoneEQ/issues">Open a GitHub Issue</a></p>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      document.getElementById('pl').style.display = lang === 'pl' ? 'block' : 'none';
+      document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
+    }
+    const userLang = navigator.language.startsWith('pl') ? 'pl' : 'en';
+    switchLang(userLang);
+  </script>
+</body>
+</html>
