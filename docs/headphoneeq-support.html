@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HeadphoneEQ – Support</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      max-width: 720px;
+    }
+    h1 { color: #1a73e8; }
+    a { color: #1a73e8; }
+
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 20px;
+    }
+
+    .lang-switch button {
+      padding: 6px 12px;
+      border: 1px solid #1a73e8;
+      background: white;
+      color: #1a73e8;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-left: 6px;
+    }
+
+    .lang-switch button.active {
+      background: #1a73e8;
+      color: white;
+    }
+  </style>
+
+  <script>
+    function setLanguage(lang) {
+      document.querySelectorAll("[data-lang]").forEach(el => {
+        el.style.display = el.dataset.lang === lang ? "block" : "none";
+      });
+
+      document.querySelectorAll(".lang-switch button").forEach(btn => {
+        btn.classList.remove("active");
+      });
+
+      document.getElementById(lang + "-btn").classList.add("active");
+      localStorage.setItem("preferredLang", lang);
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const savedLang = localStorage.getItem("preferredLang");
+
+      const lang = savedLang
+        ? savedLang
+        : navigator.language.startsWith("pl") ? "pl" : "en";
+
+      setLanguage(lang);
+    });
+  </script>
+</head>
+<body>
+
+  <!-- LANGUAGE SWITCH -->
+  <div class="lang-switch">
+    <button id="pl-btn" onclick="setLanguage('pl')">PL</button>
+    <button id="en-btn" onclick="setLanguage('en')">EN</button>
+  </div>
+
+  <!-- POLISH VERSION -->
+  <div data-lang="pl">
+    <h1>HeadphoneEQ – Wsparcie</h1>
+
+    <p>Dziękujemy za korzystanie z <strong>HeadphoneEQ</strong>.
+    Jeśli napotkasz problemy lub masz pytania — jesteśmy tutaj, aby pomóc.</p>
+
+    <h2>Kontakt</h2>
+    <p>
+      Zgłoś problem lub zadaj pytanie na GitHubie:<br>
+      <a href="https://github.com/pawel1219-arch/HeadphoneEQ/issues">Otwórz zgłoszenie na GitHub</a>
+    </p>
+
+    <h2>Najczęściej zadawane pytania</h2>
+    <ul>
+      <li><strong>Jak działa HeadphoneEQ?</strong><br>
+        Aplikacja przechwytuje dźwięk systemowy i stosuje korekcję EQ w czasie rzeczywistym, dopasowaną do Twoich słuchawek.</li>
+      <li><strong>Czy potrzebuję BlackHole?</strong><br>
+        Na macOS 14.2+ nie — aplikacja korzysta z CoreAudio Tap (tryb System Audio). Na starszych wersjach wymagany jest BlackHole.</li>
+      <li><strong>Skąd pochodzą profile EQ?</strong><br>
+        Profile pochodzą z bazy <a href="https://github.com/jaakkopasanen/AutoEq">AutoEQ</a> — otwartej bazy korekcji dla ponad 4000 słuchawek.</li>
+      <li><strong>Czy aplikacja zbiera dane?</strong><br>
+        Nie. HeadphoneEQ nie zbiera żadnych danych. Cały processing audio odbywa się lokalnie.</li>
+      <li><strong>Dlaczego aplikacja prosi o dostęp do mikrofonu / nagrywania audio?</strong><br>
+        To wymagane przez macOS do przechwytywania dźwięku systemowego w celu nałożenia EQ. Żaden dźwięk nie jest nagrywany ani wysyłany.</li>
+    </ul>
+
+    <h2>Polityka prywatności</h2>
+    <p>
+      Politykę prywatności znajdziesz tutaj:<br>
+      <a href="https://github.com/pawel1219-arch/HeadphoneEQ/blob/main/PRIVACY.md">Zobacz politykę prywatności</a>
+    </p>
+
+    <h2>Zgłoszenie błędu</h2>
+    <p>
+      Jeśli chcesz zgłosić błąd lub zaproponować nową funkcję:<br>
+      <a href="https://github.com/pawel1219-arch/HeadphoneEQ/issues">Otwórz zgłoszenie na GitHub</a>
+    </p>
+  </div>
+
+  <!-- ENGLISH VERSION -->
+  <div data-lang="en" style="display:none">
+    <h1>HeadphoneEQ – Support</h1>
+
+    <p>Thank you for using <strong>HeadphoneEQ</strong>.
+    If you experience any issues or have questions — we are here to help.</p>
+
+    <h2>Contact</h2>
+    <p>
+      Report an issue or ask a question on GitHub:<br>
+      <a href="https://github.com/pawel1219-arch/HeadphoneEQ/issues">Open a GitHub Issue</a>
+    </p>
+
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li><strong>How does HeadphoneEQ work?</strong><br>
+        The app captures system audio and applies real-time EQ correction tailored to your headphones.</li>
+      <li><strong>Do I need BlackHole?</strong><br>
+        On macOS 14.2+, no — the app uses CoreAudio Tap (System Audio mode). On older versions, BlackHole is required.</li>
+      <li><strong>Where do EQ profiles come from?</strong><br>
+        Profiles come from the <a href="https://github.com/jaakkopasanen/AutoEq">AutoEQ</a> database — an open-source collection of corrections for over 4,000 headphones.</li>
+      <li><strong>Does the app collect any data?</strong><br>
+        No. HeadphoneEQ collects zero data. All audio processing happens locally on your device.</li>
+      <li><strong>Why does the app request microphone / audio capture access?</strong><br>
+        This is required by macOS to capture system audio for EQ processing. No audio is ever recorded or transmitted.</li>
+    </ul>
+
+    <h2>Privacy Policy</h2>
+    <p>
+      You can view our Privacy Policy here:<br>
+      <a href="https://github.com/pawel1219-arch/HeadphoneEQ/blob/main/PRIVACY.md">View Privacy Policy</a>
+    </p>
+
+    <h2>Bug Reports</h2>
+    <p>
+      If you want to report a bug or suggest a feature:<br>
+      <a href="https://github.com/pawel1219-arch/HeadphoneEQ/issues">Open a GitHub Issue</a>
+    </p>
+  </div>
+
+</body>
+</html>
